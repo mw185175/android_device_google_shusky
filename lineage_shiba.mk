@@ -21,6 +21,7 @@ PRODUCT_NAME := lineage_shiba
 
 # Addons
 TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
 
 # Gms 
 WITH_GMS := true
@@ -33,6 +34,9 @@ TARGET_PREBUILT_GOOGLE_CAMERA := true
 
 # Ship LawnChair 
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+# Ship Matlog
+TARGET_SHIPS_MATLOG := true
 
 RISING_MAINTAINER=EliteDarkKaiser
 
