@@ -21,6 +21,8 @@ PRODUCT_NAME := lineage_shiba
 
 # Addons
 TARGET_HAS_UDFPS := true
+
+# disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
 
 # Gms 
