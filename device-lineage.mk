@@ -31,8 +31,8 @@ include packages/apps/PixelParts/device.mk
 # Basic Call Recorder
 include vendor/bcr/bcr.mk
 
-# Viper4AndroidFx
-include packages/apps/ViPER4AndroidFX/config.mk
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Face Unlock
 -include vendor/google/faceunlock/device.mk
