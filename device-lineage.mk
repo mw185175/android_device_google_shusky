@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Disable artifact path requirement
+DISABLE_ARTIFACT_PATH_REQUIREMENTS=true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
@@ -39,6 +42,9 @@ include hardware/google/pixel/powershare/device.mk
 
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
+
+# Pixel Framework
+$(call inherit-product, vendor/google/pixel-framework/config.mk)
 
 # Build necessary packages for vendor
 
