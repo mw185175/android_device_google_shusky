@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Disable artifact path requirement
+# Disable artifact path requirements
 DISABLE_ARTIFACT_PATH_REQUIREMENTS=true
 
 # Overlays
