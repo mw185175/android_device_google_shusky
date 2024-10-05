@@ -26,22 +26,22 @@ PRODUCT_PACKAGES += \
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 
 # PixelParts
-include packages/apps/PixelParts/device.mk
+$(call inherit-product, packages/apps/PixelParts/device.mk)
 
 # Basic Call Recorder
-include vendor/bcr/bcr.mk
+$(call inherit-product, vendor/bcr/bcr.mk)
 
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Face Unlock
--include vendor/google/faceunlock/device.mk
+$(call inherit-product, vendor/google/faceunlock/device.mk)
 
 # PowerShare
-include hardware/google/pixel/powershare/device.mk
+$(call inherit-product, hardware/google/pixel/powershare/device.mk)
 
 # wireless_charger HAL service
-include device/google/gs-common/wireless_charger/wireless_charger.mk
+$(call inherit-product, device/google/gs-common/wireless_charger/wireless_charger.mk)
 
 # Pixel Framework
 $(call inherit-product, vendor/google/pixel-framework/config.mk)
