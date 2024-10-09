@@ -17,7 +17,7 @@ include device/google/shusky/shiba/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8
-PRODUCT_NAME := lineage_shiba
+PRODUCT_NAME := orion_shiba
 
 # UDFPS support 
 TARGET_HAS_UDFPS := true
@@ -70,8 +70,14 @@ TARGET_SUPPORTS_GOOGLE_CAMERA := true
 TARGET_GOOGLE_CAMERA_LARGE_RAM := true
 TARGET_PIXEL_EXPERIENCE_2023 := true
 
-# TenX OS Flags
-TENX_MAINTAINER="GamerBoy1234294"
+# Orion OS Flags
+ORION_MAINTAINER="GamerBoy1234294"
+ORION_MAINTAINER_LINK := "https://t.me/GamerBoy1234294"
+ORION_BUILD_TYPE := UNOFFICIAL
+ORION_GAPPS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
