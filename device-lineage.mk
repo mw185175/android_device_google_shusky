@@ -44,7 +44,7 @@ $(call inherit-product, hardware/google/pixel/powershare/device.mk)
 $(call inherit-product, device/google/gs-common/wireless_charger/wireless_charger.mk)
 
 # Pixel Framework
-$(call inherit-product, vendor/google/pixel-framework/config.mk)
+$(call inherit-product, vendor/pixel-framework/config.mk)
 
 # Build necessary packages for vendor
 
