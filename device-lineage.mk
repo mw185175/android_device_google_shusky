@@ -46,6 +46,9 @@ $(call inherit-product, device/google/gs-common/wireless_charger/wireless_charge
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
 
+# Signed Build
+-include vendor/lineage-priv/keys/keys.mk
+
 # Build necessary packages for vendor
 
 # Codec2
