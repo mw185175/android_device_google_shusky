@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += \
 TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 
 # PixelParts
-$(call inherit-product, packages/apps/PixelParts/device.mk)
+include packages/apps/PixelParts/device.mk
 
 # Basic Call Recorder
 $(call inherit-product, vendor/bcr/bcr.mk)
