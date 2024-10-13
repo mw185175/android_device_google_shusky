@@ -32,40 +32,6 @@ TARGET_ENABLE_BLUR := true
 TARGET_PREBUILT_BCR := true
 
 # Lawnchair (Pixel launcher by default)
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-TARGET_INCLUDE_PIXEL_LAUNCHER := false
-
-# Custom package installer
-TARGET_USE_CUSTOM_PACKAGE_INSTALLER := true
-
-# Live wallpapers
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-
-# Quick tap
-TARGET_SUPPORTS_QUICK_TAP  := true
-
-# Now Playing
-TARGET_SUPPORTS_NOW_PLAYING := true
-
-# Clear Calling
-TARGET_SUPPORTS_CLEAR_CALLING := true
-
-# Call Recording Support
-TARGET_SUPPORTS_CALL_RECORDING := true
-
-# UDFPS support 
-TARGET_HAS_UDFPS := true
-
-# Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Blur
-TARGET_ENABLE_BLUR := true
-
-# BCR (Call recording)
-TARGET_PREBUILT_BCR := true
-
-# Lawnchair (Pixel launcher by default)
 TARGET_INCLUDE_PIXEL_LAUNCHER := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
