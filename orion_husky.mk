@@ -32,8 +32,8 @@ TARGET_ENABLE_BLUR := true
 TARGET_PREBUILT_BCR := true
 
 # Lawnchair (Pixel launcher by default)
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_INCLUDE_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 
 # Custom package installer
