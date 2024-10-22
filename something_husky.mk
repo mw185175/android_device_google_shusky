@@ -12,7 +12,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/google/shusky/aosp_husky.mk)
 $(call inherit-product, device/google/zuma/lineage_common.mk)
 
-include device/google/shusky/husky/device-lineage.mk
+include device/google/shusky/husky/device-husky.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
