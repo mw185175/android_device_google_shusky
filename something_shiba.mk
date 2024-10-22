@@ -6,7 +6,7 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aospa/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/shusky/aosp_shiba.mk)
