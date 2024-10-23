@@ -78,9 +78,9 @@ TARGET_PIXEL_EXPERIENCE_2023 := true
 WITH_GMS := true
 
 # Syberia OS Flags
-Syberia_MAINTAINER="Matthew"
-Syberia_MAINTAINER_LINK := "https://t.me/@Matthew_Husky"
-Syberia_BUILD_TYPE := UNOFFICIAL
+SYBERIA_MAINTAINER="Matthew"
+SYBERIA_MAINTAINER_LINK := "https://t.me/@Matthew_Husky"
+SYBERIA_BUILD_TYPE := UNOFFICIAL
 BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true
 BUILD_GOOGLE_MESSAGE := true
