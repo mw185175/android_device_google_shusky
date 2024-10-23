@@ -17,7 +17,7 @@ include device/google/shusky/husky/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8 Pro
-PRODUCT_NAME := orion_husky
+PRODUCT_NAME := syberia_husky
 
 # UDFPS support 
 TARGET_HAS_UDFPS := true
