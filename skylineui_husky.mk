@@ -28,8 +28,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Blur
 TARGET_ENABLE_BLUR := true
 
-# BCR (Call recording)
-TARGET_PREBUILT_BCR := true
+# Call Recording
+TARGET_CALL_RECORDING_SUPPORTED := true	
 
 # Lawnchair (Pixel launcher by default)
 TARGET_INCLUDE_PIXEL_LAUNCHER := true
