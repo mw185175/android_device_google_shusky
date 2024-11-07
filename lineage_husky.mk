@@ -9,15 +9,15 @@ TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/google/shusky/aosp_shiba.mk)
+$(call inherit-product, device/google/shusky/aosp_husky.mk)
 $(call inherit-product, device/google/zuma/lineage_common.mk)
 
-include device/google/shusky/shiba/device-lineage.mk
+include device/google/shusky/husky/device-lineage.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Pixel 8
-PRODUCT_NAME := orion_shiba
+PRODUCT_MODEL := Pixel 8 Pro
+PRODUCT_NAME := lineage_husky
 
 # UDFPS support 
 TARGET_HAS_UDFPS := true
@@ -78,26 +78,20 @@ TARGET_GOOGLE_CAMERA_LARGE_RAM := true
 TARGET_PIXEL_EXPERIENCE_2023 := true
 
 # GMS
-WITH_GMS := false
-
-# Orion OS Flags
-ORION_MAINTAINER="GamerBoy1234294"
-ORION_MAINTAINER_LINK := "https://t.me/GamerBoy1234294"
-ORION_BUILD_TYPE := UNOFFICIAL
-ORION_GAPPS := false
+WITH_GMS := true
 BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true
 BUILD_GOOGLE_MESSAGE := true
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_HEIGHT := 2992
+TARGET_SCREEN_WIDTH := 1344
+TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=shiba \
-    PRIVATE_BUILD_DESC="shiba-user 14 AP2A.240905.003 12231197 release-keys"
+    TARGET_PRODUCT=husky \
+    PRIVATE_BUILD_DESC="husky-user 14 AP2A.240905.003 12231197 release-keys"
 
-BUILD_FINGERPRINT := google/shiba/shiba:14/AP2A.240905.003/12231197:user/release-keys
+BUILD_FINGERPRINT := google/husky/husky:14/AP2A.240905.003/12231197:user/release-keys
 
-$(call inherit-product, vendor/google/shiba/shiba-vendor.mk)
+$(call inherit-product, vendor/google/husky/husky-vendor.mk)
